@@ -1,0 +1,2 @@
+# Evently
+Evently is a production-ready backend system for event management and seat booking, featuring role-based access (user/admin), secure JWT authentication, and Redis caching. It provides public event listings with filtering, an admin CRUD interface, and a concurrency-safe booking mechanism that prevents double reservations. The system uses Go (Fiber), PostgreSQL (GORM), and Redis, with Docker Compose for infrastructure setup. It includes soft booking cancellations, input validation, and efficient caching strategies for high performance.
